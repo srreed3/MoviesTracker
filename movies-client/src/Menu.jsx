@@ -11,7 +11,7 @@ function Menu() {
                 </div>
 
                 <div className="navbar">
-                <p><NavLink to ="/" id="home-container">HOME</NavLink></p>
+                <button className="home-container"><NavLink to ="/">HOME</NavLink></button>
                 <div className="dropdown">
                     <button className="dropbtn">MOVIES<i className="fa fa-caret-down"></i></button>
                     <div className="dropdown-content">
