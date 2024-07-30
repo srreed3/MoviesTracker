@@ -1,4 +1,3 @@
-import Menu from "./Menu";
 
 function View() {
     return (
