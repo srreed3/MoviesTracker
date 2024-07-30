@@ -1,3 +1,4 @@
+import "./add_update.css"
 
 function Add() {
     return (
