@@ -1,5 +1,4 @@
 import Menu from "./Menu"
-import App from "./App"
 
 function BaseLayout(props) {
     return (
@@ -8,9 +7,9 @@ function BaseLayout(props) {
 
             {props.children}
 
-        <h1>Content</h1>
-
-        <footer>CopyRight 2024 M.O.M.</footer>
+        <footer>
+            <p>&copy; 2024 M.O.M. LLC</p>
+        </footer>
         </>
     )
 }
