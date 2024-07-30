@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AddMovie from './AddMovie';
 import ListMovies from './ListMovies';
+import Menu from "./Menu";
 
 function App() {
   // State to store the list of movies
@@ -33,13 +34,15 @@ function App() {
   }, []);
 
   return (
-    <div>
-      {/* Pass the addMovie function as a prop to AddMovie component */}
-      <AddMovie addMovie={addMovie} />
-      
-      {/* Pass the movies array as a prop to ListMovies component */}
-      <ListMovies movies={movies} />
-    </div>
+    <>
+      <div>
+        {/* Pass the addMovie function as a prop to AddMovie component */}
+        <AddMovie addMovie={addMovie} />
+        
+        {/* Pass the movies array as a prop to ListMovies component */}
+        <ListMovies movies={movies} />
+      </div>
+    </>
   );
 }
 
