@@ -71,9 +71,9 @@ input, select {
 
 }
 
-body {
-    /* overflow: hidden; */
-}
+/* body {
+    overflow: hidden;
+} */
 
 /*length hrs mins start*/
 #hrs, #mins {
